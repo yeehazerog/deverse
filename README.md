@@ -6,4 +6,4 @@ the host is a amd64 machine running debian.
 
 1. install os
 2. setup ssh to git and the rpi's
-3. install docker 'sudo apt-get install docker' and docker compose 'sudo apt-get install docker-compose'
+3. install docker and docker compose 'sudo apt-get install docker docker-compose -y'
