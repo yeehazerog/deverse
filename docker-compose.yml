@@ -1,0 +1,25 @@
+version: "3.6"
+
+services:
+  python:
+    build: .
+    ports:
+      - "5000:5000"
+
+  postgres:
+    restart: always
+    image: postgres:10.4
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=JohnD
+      - POSTGRES_PASSWORD=SecretPassw0rd
+      - POSTGRES_DB=testdb
+    volumes:
+      - /srv/docker/postgresql-data:/var/lib/postgresql/data
+
+  redis:
+    restart: always
+    image: redis:4.0.9
+    ports:
+      - "6379:6379"
