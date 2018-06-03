@@ -1,3 +1,5 @@
+<img src="./yZ_Logo.png" width="100">
+
 # deverse
 This repo holds my development environment - the development universe and therefore deverse ;)
 
