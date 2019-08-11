@@ -13,7 +13,7 @@ the host is a amd64 machine running debian.
 * Check the ssh-agent setup, do I need to run it every time?
 * Currently 'eval "$(ssh-agent -s)"' and 'ssh-add ~/.ssh/<ssh key file name>' are needed to run.
 
-. install link:https://store.docker.com/search?type=edition&offering=community[docker] and link:https://docs.docker.com/compose/install/[docker compose] 'sudo apt-get install docker docker-compose -y'
+. install link:https://store.docker.com/search?type=edition&offering=community[docker] and link:https://docs.docker.com/compose/install/[docker compose] `sudo apt-get install docker docker-compose -y`
 
 == Gitlab
 
