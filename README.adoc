@@ -29,3 +29,7 @@ docker run -d --name gitlab-ce \
     --volume $PWD/gitlab/data:/var/opt/gitlab \
     gitlab/gitlab-ce
 ----
+
+=== GitLab Runner
+
+link:https://docs.gitlab.com/runner/install/docker.html[Run GitLab Runner in a container]
